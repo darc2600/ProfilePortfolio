@@ -57,7 +57,8 @@ export class AppComponent {
         'Microsoft Office 365',
         'Video Editing',
         'OBS Studio',
-        'Live2D Cubism'
+        'Live2D Cubism',
+        'WordPress'
       ],
     },
   ];
