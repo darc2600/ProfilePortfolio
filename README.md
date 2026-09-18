@@ -2,6 +2,14 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
 
+## Live site
+
+Visit the portfolio at [darc2600.github.io/ProfilePortfolio](https://darc2600.github.io/ProfilePortfolio/).
+
+## GitHub Pages deployment
+
+This project is deployed to GitHub Pages through GitHub Actions. Every push to the `main` branch runs the workflow in [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml), builds the Angular application, and publishes the generated site automatically.
+
 ## Development server
 
 To start a local development server, run:
