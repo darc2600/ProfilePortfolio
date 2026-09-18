@@ -105,24 +105,16 @@
     <div class="section-label"><p>01 - Experience</p></div>
     <div class="section-content">
       <h2>Work-related experience.</h2>
-      <article class="experience-card">
+      <article class="experience-card" *ngFor="let experience of experiences">
         <div class="experience-meta">
-          <span>February - June 2025</span>
-          <span>Student trainee</span>
+          <span>{{ experience.period }}</span>
+          <span>{{ experience.type }}</span>
         </div>
-        <h3>Junior Software Developer</h3>
-        <p class="company">Eclectus Technologies Inc.</p>
+        <h3>{{ experience.role }}</h3>
+        <p class="company">{{ experience.company }}</p>
         <ul>
-          <li>
-            Developed an e-wallet system for a client company so employees can
-            manage and use digital funds within the organization.
-          </li>
-          <li>
-            Quality Assurance Tester for the Capacash mobile
-            application.
-          </li>
-          <li>
-            Served as an effective minute taker during Agile-method meetings.
+          <li *ngFor="let responsibility of experience.responsibilities">
+            {{ responsibility }}
           </li>
         </ul>
       </article>
@@ -132,23 +124,20 @@
     <div class="section-label"><p>02 - Certification</p></div>
     <div class="section-content">
       <h2>Specialization certification.</h2>
-      <article class="certificate-card">
-        <span class="certificate-mark">01</span>
+      <article class="certificate-card" *ngFor="let certification of certifications">
+        <span class="certificate-mark">{{ certification.mark }}</span>
         <div>
-          <p class="skill-group">Coursera Certification</p>
+          <p class="skill-group">{{ certification.provider }}</p>
           <h3>
             <a
               class="certificate-link"
-              href="https://coursera.org/share/255ceb4d2191344d7c9dbf1c57d22354"
+              [href]="certification.link"
               target="_blank"
               rel="noopener noreferrer"
-              >Google IT Support Professional Certificate &#8599;</a
+              >{{ certification.title }} &#8599;</a
             >
           </h3>
-          <p>
-            Professional training in foundational IT support skills and
-            troubleshooting.
-          </p>
+          <p>{{ certification.description }}</p>
         </div>
       </article>
       <a

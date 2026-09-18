@@ -11,6 +11,22 @@ interface Project {
   link?: string;
 }
 
+interface Experience {
+  period: string;
+  type: string;
+  role: string;
+  company: string;
+  responsibilities: string[];
+}
+
+interface Certification {
+  mark: string;
+  provider: string;
+  title: string;
+  description: string;
+  link: string;
+}
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -62,6 +78,32 @@ export class AppComponent {
       ],
     },
   ];
+
+  readonly experiences: Experience[] = [
+    {
+      period: 'February - June 2025',
+      type: 'Student trainee',
+      role: 'Junior Software Developer',
+      company: 'Eclectus Technologies Inc.',
+      responsibilities: [
+        'Developed an e-wallet system for a client company so employees can manage and use digital funds within the organization.',
+        'Quality Assurance Tester for the Capacash mobile application.',
+        'Served as an effective minute taker during Agile-method meetings.',
+      ],
+    },
+  ];
+
+  readonly certifications: Certification[] = [
+    {
+      mark: '01',
+      provider: 'Coursera Certification',
+      title: 'Google IT Support Professional Certificate',
+      description:
+        'Professional training in foundational IT support skills and troubleshooting.',
+      link: 'https://coursera.org/share/255ceb4d2191344d7c9dbf1c57d22354',
+    },
+  ];
+
   submitted = false;
   sendMessage(): void {
     this.submitted = true;
