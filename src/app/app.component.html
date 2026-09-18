@@ -1,0 +1,256 @@
+﻿<div
+  class="custom-cursor"
+  [class.is-visible]="cursorVisible"
+  [style.transform]="'translate3d(' + (cursorX - 20) + 'px, ' + (cursorY - 20) + 'px, 0)'"
+  aria-hidden="true"
+>
+</div>
+<div
+  class="cursor-dot"
+  [class.is-visible]="cursorVisible"
+  [style.transform]="'translate3d(' + (cursorX - 4.5) + 'px, ' + (cursorY - 4.5) + 'px, 0)'"
+  aria-hidden="true"
+></div>
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Primary navigation">
+    <a class="brand" href="#hero"><span>A</span>J</a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#experience">Experience</a
+      ><a href="#certification">Certification</a><a href="#skills">Skills</a><a href="#work">Projects</a
+      >
+    </div>
+    <a class="hire-link" href="#contact">Hire me</a>
+  </nav>
+</header>
+<main>
+  <section class="hero wrap" id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div>
+        <p class="kicker">BS Information Technology | Mapua University</p>
+        <h1>Arvin Justo</h1>
+        <p class="intro">
+          An IT graduate interested in UI/UX designer, fullstack developer,
+          software developer, quality assurance, and technical support.
+        </p>
+      </div>
+      <div class="location">
+        <p><strong>Based in</strong><br />Metro Manila, PH</p>
+        <p><strong>Currently</strong><br />Open to work</p>
+        <i></i>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#about">Scroll <span></span></a>
+  </section>
+  <section class="section wrap" id="about">
+    <div class="section-label"><p>00 - About</p>
+      <i></i>
+    </div>
+    <div class="section-content">
+      <h2>An IT student building <em>practical</em> digital solutions.</h2>
+      <div class="body-copy">
+        <p>
+          I am a Bachelor of Science in Information Technology graduate at
+          Mapua University. I enjoy using technology to create practical, user-friendly, and secure solutions that address real-world needs.
+        </p>
+        <p>
+          During my student trainee experience as a Junior Software Developer at Eclectus Technologies Inc., 
+          I contributed to the development of an internal e-wallet system and participated in the quality assurance testing of the Capataz mobile application. 
+          I also gained experience in Agile meetings, including effective minute-taking and team collaboration. 
+        </p>
+        <p>
+          I have worked on various academic and research projects, including a facial recognition-based attendance monitoring system and the Capacash e-wallet mobile application. 
+          My research paper on security measures for cashless payments in developing countries was also published at the 4th International Conference on Computer Systems in 2024.
+        </p>
+        <p>
+          I am eager to learn, adaptable, and motivated to contribute to projects and to 
+          continuously develop my technical and creative abilities.  
+        </p>
+      </div>
+      <div class="education" aria-label="Education background">
+        <p class="skill-group">Education Background</p>
+        <article>
+          <div>
+            <h3>Mapua University</h3>
+            <p>Bachelor of Science in Information Technology</p>
+          </div>
+          <span>February 2021 - September 2026</span>
+        </article>
+        <article>
+          <div>
+            <h3>Mapua University</h3>
+            <p>Senior High School</p>
+          </div>
+          <span>2017 - 2019</span>
+        </article>
+        <article>
+          <div>
+            <h3>Don Bosco Technical Institute of Makati</h3>
+            <p>Preparatory - Junior High School</p>
+          </div>
+          <span>2017</span>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="section wrap bordered" id="experience">
+    <div class="section-label"><p>01 - Experience</p></div>
+    <div class="section-content">
+      <h2>Work-related experience.</h2>
+      <article class="experience-card">
+        <div class="experience-meta">
+          <span>February - June 2025</span>
+          <span>Student trainee</span>
+        </div>
+        <h3>Junior Software Developer</h3>
+        <p class="company">Eclectus Technologies Inc.</p>
+        <ul>
+          <li>
+            Developed an e-wallet system for a client company so employees can
+            manage and use digital funds within the organization.
+          </li>
+          <li>
+            Quality Assurance Tester for the Capacash mobile
+            application.
+          </li>
+          <li>
+            Served as an effective minute taker during Agile-method meetings.
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  <section class="section wrap bordered" id="certification">
+    <div class="section-label"><p>02 - Certification</p></div>
+    <div class="section-content">
+      <h2>Specialization certification.</h2>
+      <article class="certificate-card">
+        <span class="certificate-mark">01</span>
+        <div>
+          <p class="skill-group">Coursera Certification</p>
+          <h3>
+            <a
+              class="certificate-link"
+              href="https://coursera.org/share/255ceb4d2191344d7c9dbf1c57d22354"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Google IT Support Professional Certificate &#8599;</a
+            >
+          </h3>
+          <p>
+            Professional training in foundational IT support skills and
+            troubleshooting.
+          </p>
+        </div>
+      </article>
+      <a
+        class="more-certifications-link"
+        href="https://www.linkedin.com/in/arvin-rico-justo-9758943b8/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >See more certifications on LinkedIn &#8599;</a
+      >
+    </div>
+  </section>
+  <section class="section wrap bordered" id="skills">
+    <div class="section-label"><p>03 - Skills</p></div>
+    <div class="section-content">
+      <h2>My technical skills.</h2>
+      <div class="skill-grid">
+        <div *ngFor="let group of skills">
+          <p class="skill-group">{{ group.name }}</p>
+          <div class="skill-list">
+            <span class="skill-tag" *ngFor="let skill of group.items">{{
+              skill
+            }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section wrap bordered" id="work">
+    <div class="section-label"><p>04 - Projects</p></div>
+    <div class="section-content">
+      <h2>Research papers &amp; Project accomplishments.</h2>
+      <div class="projects">
+        <article
+          class="project"
+          *ngFor="let project of projects; let i = index"
+        >
+          <span class="project-id">0{{ i + 1 }}</span>
+          <div>
+            <div class="project-heading">
+              <h3>{{ project.title }}</h3>
+              <span>{{ project.type }}</span>
+            </div>
+            <p>{{ project.description }}</p>
+            <a
+              *ngIf="project.link"
+              class="project-link"
+              [href]="project.link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Read publication &#8599;</a
+            >
+            <div class="project-tags">
+              <span *ngFor="let tag of project.tags">{{ tag }}</span>
+            </div>
+          </div>
+          <span class="project-year">{{ project.year }}</span>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="section wrap bordered" id="contact">
+    <div class="section-label"><p>05 - Contact</p></div>
+    <div class="section-content contact-grid">
+      <div>
+        <h2><em>Meliora Eligo.</em></h2>
+        <p class="body-copy">
+          Contact me if interested. I am open to opportunities.
+        </p>
+        <dl>
+          <div>
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:arljusto2600&#64;gmail.com"
+                >arljusto2600&#64;gmail.com</a
+              >
+            </dd>
+          </div>
+          <div>
+            <dt>Mobile</dt>
+            <dd><a href="tel:09476390020">0947 639 0020</a></dd>
+          </div>
+          <div>
+            <dt>LinkedIn</dt>
+            <dd>
+              <a
+                href="https://www.linkedin.com/in/arvin-rico-justo-9758943b8/"
+                target="_blank"
+                rel="noopener"
+                >arvin-justo-LinkedIn</a>
+            </dd>
+          </div>
+          <div>
+            <dt>Github</dt>
+            <dd>
+              <a
+                href="https://github.com/darc2600"
+                target="_blank"
+                rel="noopener"
+                >arvin-justo-Github</a>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <p>(c) 2026 Arvin Justo.</p>
+    <p>Designed &amp; built from scratch.</p>
+  </div>
+</footer>
