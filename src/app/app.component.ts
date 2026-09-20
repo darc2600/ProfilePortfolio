@@ -50,7 +50,7 @@ export class AppComponent {
   readonly skills = [
     {
       name: 'Programming',
-      items: ['JavaScript', 'PHP', 'C++', 'C#','TypeScript'],
+      items: ['JavaScript', 'PHP', 'C++', 'C#','TypeScript','Python'],
     },
     {
       name: 'Tools',
