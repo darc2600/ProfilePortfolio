@@ -1,0 +1,275 @@
+[
+  {
+    "mark": "01",
+    "provider": "Coursera Certification",
+    "title": "Google IT Support Professional Certificate",
+    "description": "Those who earn the Google IT Support Professional Certificate have completed five-courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for entry-level roles in IT support. They are competent in foundational skills, including troubleshooting and customer service, networking, operating systems, system administration, and security.",
+    "pdf": "/certifications/Coursera%2069V41R4PZ8DS.pdf"
+  },
+  {
+    "mark": "02",
+    "provider": "University of Minnesota - Coursera",
+    "title": "Software Development Processes and Methodologies",
+    "description": "An online course authorized by University of Minnesota and offered through Coursera.",
+    "pdf": "/certifications/Coursera%2007AUG7SWJOLN.pdf"
+  },
+  {
+    "mark": "03",
+    "provider": "University of Minnesota - Coursera",
+    "title": "Engineering Practices for Building Quality Software",
+    "description": "An online course authorized by University of Minnesota and offered through Coursera.",
+    "pdf": "/certifications/Coursera%2028LFCGZ7YW0A.pdf"
+  },
+  {
+    "mark": "04",
+    "provider": "Coursera Certification",
+    "title": "TensorFlow for CNNs: Learn and Practice CNNs",
+    "description": "An online project authorized by Deprecated Guided Projects and offered through Coursera.",
+    "pdf": "/certifications/Coursera%203LDKSTCU47A6.pdf"
+  },
+  {
+    "mark": "05",
+    "provider": "University of Alberta - Coursera",
+    "title": "Software Architecture",
+    "description": "An online course authorized by University of Alberta and offered through Coursera.",
+    "pdf": "/certifications/Coursera%204XUUSDPRKLL7.pdf"
+  },
+  {
+    "mark": "06",
+    "provider": "IBM - Coursera",
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "description": "An online course authorized by IBM and offered through Coursera.",
+    "pdf": "/certifications/Coursera%207FNX5QHHV9T6.pdf"
+  },
+  {
+    "mark": "07",
+    "provider": "University of Michigan - Coursera",
+    "title": "Python Data Structures",
+    "description": "An online course authorized by University of Michigan and offered through Coursera.",
+    "pdf": "/certifications/Coursera%209JFWHMQKJF6R.pdf"
+  },
+  {
+    "mark": "08",
+    "provider": "Rice University - Coursera",
+    "title": "An Introduction to Interactive Programming in Python (Part 1)",
+    "description": "An online course authorized by Rice University and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20AFC2CGUXK3DG.pdf"
+  },
+  {
+    "mark": "09",
+    "provider": "UNSW Sydney (The University of New South Wales) - Coursera",
+    "title": "Mechanics: Motion, Forces, Energy and Gravity, from Particles to Planets",
+    "description": "An online course authorized by UNSW Sydney (The University of New South Wales) and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20BFCRPW8W5V8C.pdf"
+  },
+  {
+    "mark": "10",
+    "provider": "University of Michigan - Coursera",
+    "title": "Programming for Everybody (Getting Started with Python)",
+    "description": "An online course authorized by University of Michigan and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20BLY2UEPWWD89.pdf"
+  },
+  {
+    "mark": "11",
+    "provider": "University of Michigan - Coursera",
+    "title": "Introduction to Data Science in Python",
+    "description": "An online course authorized by University of Michigan and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20BSRMSN3FEK5Y.pdf"
+  },
+  {
+    "mark": "12",
+    "provider": "Codio - Coursera",
+    "title": "Software Security for Web Applications",
+    "description": "An online course authorized by Codio and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20BUBP4P7B5K3L.pdf"
+  },
+  {
+    "mark": "13",
+    "provider": "University of Colorado System - Coursera",
+    "title": "Data Warehouse Concepts, Design, and Data Integration",
+    "description": "An online course authorized by University of Colorado System and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20C332CMA99GRZ.pdf"
+  },
+  {
+    "mark": "14",
+    "provider": "Google - Coursera",
+    "title": "Operating Systems and You: Becoming a Power User",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20CF4SITU3HUQZ.pdf"
+  },
+  {
+    "mark": "15",
+    "provider": "Google - Coursera",
+    "title": "System Administration and IT Infrastructure Services",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20CLRVUE0D0539.pdf"
+  },
+  {
+    "mark": "16",
+    "provider": "University of London - Coursera",
+    "title": "Machine Learning for All",
+    "description": "An online course authorized by University of London and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20CLXY9U97A4PP.pdf"
+  },
+  {
+    "mark": "17",
+    "provider": "Duke University - Coursera",
+    "title": "Inferential Statistics",
+    "description": "An online course authorized by Duke University and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20CU5N598DAXXS.pdf"
+  },
+  {
+    "mark": "18",
+    "provider": "Korea Advanced Institute of Science and Technology(KAIST) - Coursera",
+    "title": "Differential Equ ations Part I Basic Theory",
+    "description": "An online course authorized by Korea Advanced Institute of Science and Technology(KAIST) and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20D6TV2TLG9NWN.pdf"
+  },
+  {
+    "mark": "19",
+    "provider": "University of Amsterdam - Coursera",
+    "title": "Quantitative Methods",
+    "description": "An online course authorized by University of Amsterdam and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20ELQ64PZS67JB.pdf"
+  },
+  {
+    "mark": "20",
+    "provider": "Google - Coursera",
+    "title": "Foundations of Cybersecurity",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20FM2XBE9QEW4T.pdf"
+  },
+  {
+    "mark": "21",
+    "provider": "Google - Coursera",
+    "title": "IT Security: Defense against the digital dark arts",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20FQEIWDBQKTK6.pdf"
+  },
+  {
+    "mark": "22",
+    "provider": "University of Colorado System - Coursera",
+    "title": "Database Management Essentials",
+    "description": "An online course authorized by University of Colorado System and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20HYSUPXKT8ZCL.pdf"
+  },
+  {
+    "mark": "23",
+    "provider": "University of California, Irvine - Coursera",
+    "title": "Essentials of Entrepreneurship: Thinking & Action",
+    "description": "An online course authorized by University of California, Irvine and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20JD6L823CMYD1.pdf"
+  },
+  {
+    "mark": "24",
+    "provider": "IBM - Coursera",
+    "title": "Hands-on Introduction to Linux Commands and Shell Scripting",
+    "description": "An online course authorized by IBM and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20JDCCWUWCEDBP.pdf"
+  },
+  {
+    "mark": "25",
+    "provider": "University of Michigan - Coursera",
+    "title": "Python Classes and Inheritance",
+    "description": "An online course authorized by University of Michigan and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20KZBZA79JS3PN.pdf"
+  },
+  {
+    "mark": "26",
+    "provider": "Google - Coursera",
+    "title": "The Bits and Bytes of Computer Networking",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20MHG3I2GAPQ1V.pdf"
+  },
+  {
+    "mark": "27",
+    "provider": "University of Michigan - Coursera",
+    "title": "Introduction to Thermodynamics: Transferring Energy from Here to There",
+    "description": "An online course authorized by University of Michigan and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20MRUQHPL6QXEJ.pdf"
+  },
+  {
+    "mark": "28",
+    "provider": "Google - Coursera",
+    "title": "Foundations of Project Management",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20OMRXD1YJA0R9.pdf"
+  },
+  {
+    "mark": "29",
+    "provider": "Johns Hopkins University - Coursera",
+    "title": "Introduction to Systematic Review and Meta-Analysis",
+    "description": "An online course authorized by Johns Hopkins University and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20PPF6Z79ELRXB.pdf"
+  },
+  {
+    "mark": "30",
+    "provider": "Google - Coursera",
+    "title": "Technical Support Fundamentals",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20QFL9I80X2DE3.pdf"
+  },
+  {
+    "mark": "31",
+    "provider": "Amazon Web Services - Coursera",
+    "title": "AWS Cloud Technical Essentials",
+    "description": "An online course authorized by Amazon Web Services and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20QPC1RYXUT0S0.pdf"
+  },
+  {
+    "mark": "32",
+    "provider": "Korea Advanced Institute of Science and Technology(KAIST) - Coursera",
+    "title": "Introduction to Basic Vibrations",
+    "description": "An online course authorized by Korea Advanced Institute of Science and Technology(KAIST) and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20RVQDZSVQKURC.pdf"
+  },
+  {
+    "mark": "33",
+    "provider": "Duke University - Coursera",
+    "title": "Linear Regression and Modeling",
+    "description": "An online course authorized by Duke University and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20SVHBZ4LNW8XP.pdf"
+  },
+  {
+    "mark": "34",
+    "provider": "University of California San Diego - Coursera",
+    "title": "Data Structures",
+    "description": "An online course authorized by University of California San Diego and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20ULLN8VBYZ6FB.pdf"
+  },
+  {
+    "mark": "35",
+    "provider": "University of Minnesota - Coursera",
+    "title": "IS/IT Governance",
+    "description": "An online course authorized by University of Minnesota and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20VC93LE4PRKY2.pdf"
+  },
+  {
+    "mark": "36",
+    "provider": "Georgia Institute of Technology - Coursera",
+    "title": "Introduction to Engineering Mechanics",
+    "description": "An online course authorized by Georgia Institute of Technology and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20VWLVNKYFE72H.pdf"
+  },
+  {
+    "mark": "37",
+    "provider": "Georgia Institute of Technology - Coursera",
+    "title": "Engineering Systems in Motion: Dynamics of Particles and Bodies in 2D Motion",
+    "description": "An online course authorized by Georgia Institute of Technology and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20YATKVZQ5HTBR.pdf"
+  },
+  {
+    "mark": "38",
+    "provider": "Google - Coursera",
+    "title": "Troubleshooting and Debugging Techniques",
+    "description": "An online course authorized by Google and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20YCQQLMNMJ6HJ.pdf"
+  },
+  {
+    "mark": "39",
+    "provider": "Duke University - Coursera",
+    "title": "Introduction to Probability and Data with R",
+    "description": "An online course authorized by Duke University and offered through Coursera.",
+    "pdf": "/certifications/Coursera%20YQ42766BVQGZ.pdf"
+  }
+]

@@ -20,7 +20,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               { "glob": "**/*", "input": "public" },
-              { "glob": "**/*", "input": "picture", "output": "picture" }
+              { "glob": "**/*", "input": "picture", "output": "picture" },
+              { "glob": "**/*.pdf", "input": "Certifications PDF", "output": "certifications" }
             ],
             "styles": ["src/styles.scss"],
             "optimization": { "fonts": false }

@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "index:certifications": "node scripts/generate-certifications.mjs",
+    "prestart": "npm run index:certifications",
+    "prebuild": "npm run index:certifications",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test"
@@ -13,6 +16,7 @@
     "@angular/core": "^19.2.0",
     "@angular/platform-browser": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "pdfjs-dist": "^5.6.205",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

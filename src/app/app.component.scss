@@ -562,6 +562,12 @@ footer .wrap {
     400 0.78rem "DM Mono",
     monospace;
 }
+.event-description {
+  max-width: 46rem;
+  margin: 1.25rem 0 1rem;
+  color: var(--secondary);
+  line-height: 1.7;
+}
 .experience-card ul {
   margin: 1.75rem 0 0;
   padding-left: 1.15rem;

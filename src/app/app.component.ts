@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import certifications from './certifications.generated.json';
 
 interface Project {
   title: string;
@@ -24,7 +25,15 @@ interface Certification {
   provider: string;
   title: string;
   description: string;
-  link: string;
+  pdf: string;
+}
+
+interface InternationalEvent {
+  year: string;
+  type: string;
+  name: string;
+  role: string;
+  description: string;
 }
 
 @Component({
@@ -93,14 +102,16 @@ export class AppComponent {
     },
   ];
 
-  readonly certifications: Certification[] = [
+  readonly certifications: Certification[] = certifications;
+
+  readonly internationalEvents: InternationalEvent[] = [
     {
-      mark: '01',
-      provider: 'Coursera Certification',
-      title: 'Google IT Support Professional Certificate',
+      year: '2025',
+      type: 'Student Global Experience',
+      name: 'Student Global Experience Technical Visit and University Visit in Osaka and Kyoto, Japan',
+      role: 'Student Tourist',
       description:
-        'Professional training in foundational IT support skills and troubleshooting.',
-      link: 'https://coursera.org/share/255ceb4d2191344d7c9dbf1c57d22354',
+        'A global experience program involving a series of technological awareness events, visits held at Omron Communication Plaza, Ritsumeikan University and the World Expo 2025. ',
     },
   ];
 
@@ -129,7 +140,7 @@ export class AppComponent {
       description:
         'A facial recognition-based attendance monitoring system for laboratory classrooms.',
       tags: [
-        'FrontEnd Developer Role',
+        'FullStack Developer Role',
         'Quality Assurance Role',
         'Project Manager Role',
         'UI/UX Designer Role'

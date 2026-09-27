@@ -17,7 +17,7 @@
     <div class="nav-links">
       <a href="#about">About</a><a href="#experience">Experience</a
       ><a href="#certification">Certification</a><a href="#skills">Skills</a><a href="#work">Projects</a
-      >
+      ><a href="#events">Events</a>
     </div>
     <a class="hire-link" href="#contact">Hire me</a>
   </nav>
@@ -131,7 +131,7 @@
           <h3>
             <a
               class="certificate-link"
-              [href]="certification.link"
+              [href]="certification.pdf"
               target="_blank"
               rel="noopener noreferrer"
               >{{ certification.title }} &#8599;</a
@@ -140,13 +140,6 @@
           <p>{{ certification.description }}</p>
         </div>
       </article>
-      <a
-        class="more-certifications-link"
-        href="https://www.linkedin.com/in/arvin-rico-justo-9758943b8/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >See more certifications on LinkedIn &#8599;</a
-      >
     </div>
   </section>
   <section class="section wrap bordered" id="skills">
@@ -198,8 +191,23 @@
       </div>
     </div>
   </section>
+  <section class="section wrap bordered" id="events">
+    <div class="section-label"><p>05 - Event Experience</p></div>
+    <div class="section-content">
+      <h2>International Event Experience</h2>
+      <article class="experience-card" *ngFor="let event of internationalEvents">
+        <div class="experience-meta">
+          <span>{{ event.year }}</span>
+          <span>{{ event.type }}</span>
+        </div>
+        <h3>{{ event.name }}</h3>
+        <p class="company">{{ event.role }}</p>
+        <p class="event-description">{{ event.description }}</p>
+      </article>
+    </div>
+  </section>
   <section class="section wrap bordered" id="contact">
-    <div class="section-label"><p>05 - Contact</p></div>
+    <div class="section-label"><p>06 - Contact</p></div>
     <div class="section-content contact-grid">
       <div>
         <h2><em>Meliora Eligo.</em></h2>
