@@ -77,7 +77,8 @@ const certifications = files.map((file, index) => {
     provider,
     title,
     description: 'Open the certificate PDF to view its details.',
-    pdf: `/certifications/${encodeURIComponent(file)}`,
+    // Relative URL respects the deployment base path (for example /ProfilePortfolio/ on GitHub Pages).
+    pdf: `certifications/${encodeURIComponent(file)}`,
   };
 });
 
