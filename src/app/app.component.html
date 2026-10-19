@@ -180,7 +180,7 @@
               [href]="project.link"
               target="_blank"
               rel="noopener noreferrer"
-              >Read publication &#8599;</a
+              >{{ project.linkLabel || 'Read publication' }} &#8599;</a
             >
             <div class="project-tags">
               <span *ngFor="let tag of project.tags">{{ tag }}</span>

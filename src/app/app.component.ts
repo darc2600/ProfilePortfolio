@@ -10,6 +10,7 @@ interface Project {
   tags: string[];
   accent: string;
   link?: string;
+  linkLabel?: string;
 }
 
 interface Experience {
@@ -120,6 +121,17 @@ export class AppComponent {
     this.submitted = true;
   }
   readonly projects: Project[] = [
+    {
+      title: 'Novelist E-Portfolio',
+      type: 'Web Project',
+      year: '2026',
+      description:
+        'A novel-style e-portfolio website built with TypeScript.',
+      tags: ['TypeScript', 'E-Portfolio'],
+      accent: 'project-north',
+      link: 'https://github.com/darc2600/Novelist-E-Portfolio/tree/main',
+      linkLabel: 'View repository',
+    },
     {
       title: 'Capacash: A Capataz E-Wallet Mobile Application',
       type: 'OJT Project Prototype',
